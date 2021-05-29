@@ -11,6 +11,9 @@ namespace AddressBook_ADO.NET
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome Address Book System ADO.NET");
+            AddressBookManagement addressBookManagement = new AddressBookManagement();
+            addressBookManagement.DataBaseConnection(); //UC1
+            Console.ReadLine();
 
         }  
     }
